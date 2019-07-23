@@ -106,3 +106,13 @@ grid-area: quick_link;
 
 
 }
+
+
+i {
+
+  border-radius: 50%;
+      border: 1px solid;
+      padding: 10px;
+      background: #095781
+
+}
