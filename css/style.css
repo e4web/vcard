@@ -51,6 +51,13 @@ font-size:40px;
 
 }
 
+.profile_pic img {
+
+
+border-radius: 50%;
+
+}
+
 .background {
 
 background-image: url('https://previews.123rf.com/images/thailerd/thailerd1506/thailerd150600008/41319178-background-technology-blue-tech-background-with-shining-abstract-objects-vector-tech-circle-and-tech.jpg');
