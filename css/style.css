@@ -21,7 +21,7 @@ width:400px;
 
 height:800px;
 
-background-color: gray;
+
 
 
 }
@@ -88,15 +88,21 @@ width:100%;
 }
 
 
-.profile_details {
+.profile_more_details {
 
+text-align:center;
+
+}
+
+.profile_details {
+text-align:center;
 grid-area: profile_detail;
 
 }
 
 
 .social_media_buttons {
-
+text-align:center;
 grid-area: social_media_button;
 
 }
