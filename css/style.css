@@ -117,3 +117,17 @@ i {
       background: #095781
 
 }
+
+
+ul {
+
+list-style-type: none;
+
+}
+
+
+ul li {
+
+    display: inline;
+
+}
