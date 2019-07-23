@@ -120,7 +120,7 @@ i {
   border-radius: 50%;
       border: 1px solid;
       padding: 10px;
-      background: #095781
+      background: #1bb2ef;
 
 }
 
@@ -133,7 +133,7 @@ list-style-type: none;
 
 
 ul li {
-
+margin:7px;
     display: inline;
 
 }
