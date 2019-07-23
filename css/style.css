@@ -7,11 +7,16 @@ padding:0;
 
 
 .container {
-
-
+display: grid;
+grid-template-areas:
+"logo"
+"background"
+"profile_details"
+"social_media_buttons"
+"quick_links";
 width:400px;
 
-height:200px;
+height:800px;
 
 background-color: gray;
 
@@ -27,7 +32,7 @@ font-size:40px;
 
 
 .logo {
-
+grid-area: "logo";
   margin-top: auto;
   padding: 0;
   height: 50%;
@@ -69,11 +74,33 @@ text-align:center;
 }
 
 .background {
+  grid-area: "background";
 background-size:cover;
 background-image: url('https://previews.123rf.com/images/thailerd/thailerd1506/thailerd150600008/41319178-background-technology-blue-tech-background-with-shining-abstract-objects-vector-tech-circle-and-tech.jpg');
 background-repeat: no-repeat;
 height:100%;
 width:100%;
+
+
+}
+
+
+.profile_details {
+
+grid-area: "profile_details";
+
+}
+
+
+.social_media_buttons {
+
+grid-area: "profile_details";
+
+}
+
+.quick_links {
+
+grid-area: "quick_links";
 
 
 }
