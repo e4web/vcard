@@ -10,8 +10,9 @@ padding:0;
   margin-left:auto;
   margin-right:auto;
 display: grid;
+grid-template-columns: 100%;
 grid-template-areas:
-"logotypes"
+"logos"
 "backgrounds"
 "profile_detail"
 "social_media_button"
