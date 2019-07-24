@@ -172,7 +172,8 @@ ul.sLink li {
 
 
 ul.sLink li:hover {
-background-color:blue;
+  display: block;
+background-color:darkgrey;
 
 }
 
@@ -192,6 +193,13 @@ background:none !important;
 
 }
 
+.sLink a{
+text-decoration: none;
+color:black;
+
+
+}
+
 
 .container_overlay {
 
@@ -208,6 +216,7 @@ z-index: 9999;
 
 
 .sociallinks {
+  text-align: center;
 display: block;
 float:right;
 width:250px;
