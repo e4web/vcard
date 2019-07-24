@@ -195,7 +195,7 @@ background:none !important;
 
 .sLink a{
 text-decoration: none;
-color:black;
+
 
 
 }
@@ -407,9 +407,15 @@ float:left;
 
 
   ul.sLink li:hover {
-  background-color:blue;
+  background-color:darkgrey;
 
   }
+
+
+
+
+
+
 
 
   .sLink span {
