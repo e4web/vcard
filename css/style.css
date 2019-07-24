@@ -395,6 +395,14 @@ float:left;
 
   }
 
+
+  .social_media_buttons a {
+
+  text-decoration: none;
+
+  }
+
+
   .quick_links {
 
   grid-area: quick_link;
